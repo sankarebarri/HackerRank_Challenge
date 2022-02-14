@@ -1,0 +1,2 @@
+def formingMagicSquare(s):
+    pass
