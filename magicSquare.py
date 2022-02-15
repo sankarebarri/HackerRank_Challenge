@@ -21,9 +21,8 @@ def magicSquare(s):
         column.append((s[0][i]+s[1][i]+s[2][i]))
         
     diag = []
-    for i in range(1):
-        diag.append((s[0][0]+s[1][1]+s[2][2]))
-        diag.append((s[0][2]+s[1][1]+s[2][0]))
+    diag.append((s[0][0]+s[1][1]+s[2][2]))
+    diag.append((s[0][2]+s[1][1]+s[2][0]))
         
     magic_list = [row, column, diag]
 
