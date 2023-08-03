@@ -12,7 +12,7 @@ Concatenate s with the string you read as input and print the result on a new li
 
 i = 4
 d = 4.0
-s = 'HackerRank '
+s = 'HackerRank'
 # Declare second integer, double, and String variables.
 j = int(input("Type in an integer: "))
 e = float(input("Type in a float: "))
