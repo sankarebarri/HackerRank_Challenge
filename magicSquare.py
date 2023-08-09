@@ -1,6 +1,6 @@
 def magicSquare(s):
     '''
-    It checked if a 3x3 matrix is a magic square.
+    Checked if a 3x3 matrix is a magic square.
 
     Parameters
     ----------
