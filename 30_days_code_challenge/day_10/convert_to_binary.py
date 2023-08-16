@@ -10,6 +10,12 @@ The binary representation of 125 base 10  is 1111101. In base 10, there are 5 an
 """
 
 def convert_to_binary(n):
+    """
+    Convert from base 10 to base 2
+    n: postive integer
+
+    Return: 1s and 0s -> i.e Base 2 representaion of the n
+    """
     op_n = n
     remainder_list = []
     
@@ -24,13 +30,21 @@ def convert_to_binary(n):
 
 
 def count_first_1s(n):
+    """
+    Keeps count of the consecutive 1s
+    n: positive integer only in base 10
+
+    Return: The maximum count of the consecutive 1s
+    """
     count = 0
     ones_count = []
+
+    # called the convert_to_binary function() above
     result = convert_to_binary(n)
 
     for res in result:
         if res == 1:            
-            count += 1            
+            count += 1
         else:
             ones_count.append(count)
             count = 0
